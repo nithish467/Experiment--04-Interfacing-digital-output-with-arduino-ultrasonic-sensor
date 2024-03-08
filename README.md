@@ -40,6 +40,16 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 ![image](https://user-images.githubusercontent.com/36288975/166430594-5adb4ca9-5a42-4781-a7e6-7236b3766a85.png)
 
 
+## FIGURE 02:
+![Screenshot 2024-03-08 211059](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/b253d91b-ab02-4225-b8cf-79fe07ef8950)
+
+## FIGURE 03:
+![Screenshot 2024-03-08 211139](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/6fff268a-87fe-40d1-b788-7c7edeecb708)
+
+## SCHEMATIC DIAGRAM:
+
+![Screenshot 2024-03-08 212634](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/83c63a69-68c9-49b9-92b0-5cb83dab8b48)
+
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -107,15 +117,17 @@ void loop()
 
 
 
-### Distance vs measurement table 
+### Distance vs measurement table :
 
+![Screenshot 2024-03-08 212717](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/7048f6e8-2a75-428f-994a-29b07e041700)
+
+
+![Screenshot 2024-03-08 212732](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/f263e916-e407-48b0-9656-92e5ed56a542)
 			
  
 			
 			
 			
-
-![image](https://user-images.githubusercontent.com/36288975/190135379-52ebacd5-ccd5-460f-a4cd-4d0ad1d9b179.png)
 
 			
 			
