@@ -46,6 +46,13 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 ## FIGURE 03:
 ![Screenshot 2024-03-08 211139](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/6fff268a-87fe-40d1-b788-7c7edeecb708)
 
+
+## OFF CONDITION:
+![image](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/fb3ce439-5618-4076-a899-be6338b821ee)
+
+
+
+
 ## SCHEMATIC DIAGRAM:
 
 ![Screenshot 2024-03-08 212634](https://github.com/nithish467/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/150232274/83c63a69-68c9-49b9-92b0-5cb83dab8b48)
@@ -145,6 +152,9 @@ void loop()
 
 
 ### RESULTS
+
+
+Ultrasonic sensor is interfaced with digital output and error is identified to be 0.454 cms.
 
 
 
