@@ -55,7 +55,53 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 ### PROGRAM 
+```
+int echopin=6;
+int trigpin=7;
+int red=9;
+int green=8;
+long duration;
+float distance;
 
+void setup()
+{
+  pinMode(echopin,INPUT);
+  pinMode(trigpin,OUTPUT);
+  pinMode(red,OUTPUT);
+  pinMode(green,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  digitalWrite(trigpin, LOW);
+  delay(10); 
+  digitalWrite(trigpin, HIGH);
+  delay(10);
+  digitalWrite(trigpin, LOW);
+  duration=pulseIn(echopin,HIGH);
+  distance=duration*0.034/2;
+  Serial.print("distance=");
+  Serial.print(distance);
+  Serial.println("cms");
+  
+  if(distance>50)
+  {
+    digitalWrite(green, HIGH);
+  delay(500);
+   digitalWrite(green, LOW);
+  delay(500);
+    }
+  else
+  {
+    digitalWrite(red, HIGH);
+  delay(500);
+    digitalWrite(red, LOW);
+  delay(500);
+  }
+  
+}
+```
 
 
 
